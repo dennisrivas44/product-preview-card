@@ -12,15 +12,18 @@ body {
   display: flex;
   flex-direction: row;
   background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
 }
 
 #desktop-img {
   width: 50%;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 #mobile-img {
   visibility: hidden;
   display: none;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 #content {
@@ -63,6 +66,18 @@ button {
   color: white;
   border: none;
   border-radius: 0.5rem;
+  display: flex;
+  font-weight: 800;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+button img {
+  padding-right: 0.25rem;
+}
+
+button:hover {
+  background-color: hsl(158, 42%, 18%);
 }
 
 .attribution {
