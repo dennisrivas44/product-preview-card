@@ -12,17 +12,18 @@ $border-rad: 0.5rem;
 }
 body{
     background-color: $cream;
-    min-height: 100vh;
-    display: flex;
-    margin: 50vh auto;
-    max-width: 38rem;
+}
+#product-card{
+    margin: auto;
+    width: 38rem;
     display: flex;
     flex-direction: row;
     background-color: $white;
     border-radius: $border-rad;
-    flex-direction: row;
-    background-color: $white;
-    border-radius: $border-rad;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #desktop-img{
     width: 50%;
@@ -89,7 +90,7 @@ button:hover{
     background-color: $green-700;
 }
 
-.attribution { font-size: 0.5rem; text-align: center; }
+.attribution { font-size: 0.15rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (max-width: 43.75rem) {

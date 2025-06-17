@@ -7,12 +7,16 @@ body {
 }
 
 #product-card {
-  margin: 40vh auto;
+  margin: auto;
   width: 38rem;
   display: flex;
   flex-direction: row;
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #desktop-img {
@@ -81,7 +85,7 @@ button:hover {
 }
 
 .attribution {
-  font-size: 0.75px;
+  font-size: 0.15rem;
   text-align: center;
 }
 
@@ -89,7 +93,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   #desktop-img {
     visibility: hidden;
     display: none;
