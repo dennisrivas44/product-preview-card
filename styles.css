@@ -7,7 +7,7 @@ body {
 }
 
 #product-card {
-  margin: 30rem auto;
+  margin: 40vh auto;
   width: 38rem;
   display: flex;
   flex-direction: row;
